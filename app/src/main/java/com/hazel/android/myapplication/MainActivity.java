@@ -14,7 +14,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void checkStatus(){
-        int j=2;
-        Log.d("Aniket","Updated"+j);
+        String name="First in Branch02";
+        int i=1;
+        Log.d("Aniket","Updated"+i);
     }
 }
