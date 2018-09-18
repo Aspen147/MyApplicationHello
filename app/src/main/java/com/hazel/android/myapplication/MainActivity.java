@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void checkStatus(){
+        String name="Branch 01 checkout";
         int i=1;
         Log.d("Aniket","Updated"+i);
     }
