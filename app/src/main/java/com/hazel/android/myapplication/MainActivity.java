@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void checkStatus(){
-        Log.d("Aniket","Updated");
+        int i=1;
+        Log.d("Aniket","Updated"+i);
     }
 }
