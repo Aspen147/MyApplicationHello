@@ -10,12 +10,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        checkStatus();
+        updatedcheckStatus();
     }
 
-    private void checkStatus(){
-        String name="Branch 01 checkout";
-        int i=1;
-        Log.d("Aniket","Updated"+i);
+    private void updatedcheckStatus() {
+        Log.d("Aniket", "Updated for code review");
     }
 }
